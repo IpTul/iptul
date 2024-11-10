@@ -1,5 +1,9 @@
 # 💫 About Me:
-👩‍💻Working In Progress
+Hi There ! I'm IpTul from Indonesia
+
+I'm intermediate Developer
+
+Currently I am studying at Samarinda State Polytechnic
 
 ## 🌐 Socials:
 <div align="left" style="text-align: center; align-items: center; justify-content: center; justify-items: center;">
