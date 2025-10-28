@@ -3,7 +3,7 @@ Hi There ! I'm IpTul from Indonesia
 
 I'm Junior Developer
 
-Currently I am studying at Samarinda State Polytechnic
+Graduate of Samarinda State Polytechnic 2025
 
 ## 🌐 Socials:
 <div align="left" style="text-align: center; align-items: center; justify-content: center; justify-items: center;">
