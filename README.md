@@ -8,7 +8,7 @@ Graduate of Samarinda State Polytechnic 2025
 ## 🌐 Socials:
 <div align="left" style="text-align: center; align-items: center; justify-content: center; justify-items: center;">
 <h3><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="20" alt="discord logo"  />  : IpTul</h3>
-<h3><img src="[https://img.shields.io/badge/GMAIL-red](https://img.shields.io/badge/GMAIL-white?logo=gmail)" height="20" alt="gmail logo"/> : lthfrhmn21@gmail.com</h3>
+<h3><img src="https://img.shields.io/badge/GMAIL-white?logo=gmail" height="20" alt="gmail logo"/> : lthfrhmn21@gmail.com</h3>
 </div>
 
 # 💻 Tech Stack:
