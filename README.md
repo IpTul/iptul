@@ -1,7 +1,7 @@
 # 💫 About Me:
 Hi There ! I'm IpTul from Indonesia
 
-I'm intermediate Developer
+I'm Junior Developer
 
 Currently I am studying at Samarinda State Polytechnic
 
