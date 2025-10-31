@@ -1,590 +1,297 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-@charset "UTF-8";
-
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ::selection {
-    background: #eee7e1;
-    color: #1a1919;
+  background: #eee7e1;
+  color: #1a1919;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #000;
+  background-color: #000;
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
-    background-color: #333;
+  width: 5px;
+  background-color: #333;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #d3d3d3;
+  background-color: #d3d3d3;
 }
 
 html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0;
-    background-color: #000;
-    font-family: Montserrat, sans-serif;
-    color: #d3d3d3;
-    font-size: 12px;
-    line-height: 20px;
+  margin: 0;
+  background-color: #000;
+  font-family: Montserrat, sans-serif;
+  color: #d3d3d3;
+  font-size: 12px;
+  line-height: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: #d3d3d3;
-    text-decoration: underline;
+  text-decoration: none;
+  color: #d3d3d3;
+  text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: justify;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: justify;
 }
 
 .nav-link {
-    position: relative;
-    z-index: 100;
-    display: block;
-    border: 0px solid #000;
-    -webkit-transition: color 300ms ease-in-out, font-size 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-    transition: color 300ms ease-in-out, font-size 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-    transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out;
-    transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-    font-family: 'Grandslang roman', sans-serif;
-    color: #d3d3d3;
-    font-size: 12vw;
-    line-height: 0.95em;
-    font-weight: 300;
-    text-align: left;
-    text-decoration: none;
-    text-transform: uppercase;
+  position: relative;
+  z-index: 100;
+  display: block;
+  border: 0px solid #000;
+  -webkit-transition: color 300ms ease-in-out, font-size 300ms ease-in-out,
+    -webkit-transform 300ms ease-in-out;
+  transition: color 300ms ease-in-out, font-size 300ms ease-in-out,
+    -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, color 300ms ease-in-out,
+    font-size 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, color 300ms ease-in-out,
+    font-size 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  font-family: "Grandslang roman", sans-serif;
+  color: #d3d3d3;
+  font-size: 12vw;
+  line-height: 0.95em;
+  font-weight: 300;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .nav-link:hover {
-    -webkit-transform: translate(5px, 0%);
-    -ms-transform: translate(5px, 0%);
-    transform: translate(5px, 0%);
-    font-style: italic;
-    font-weight: 400;
-    text-decoration: none;
-    color: #d3d3d3;
+  -webkit-transform: translate(5px, 0%);
+  -ms-transform: translate(5px, 0%);
+  transform: translate(5px, 0%);
+  font-style: italic;
+  font-weight: 400;
+  text-decoration: none;
+  color: #d3d3d3;
 }
 
 @font-face {
-    font-family: 'Grandslang roman';
-    src: url('https://uploads-ssl.webflow.com/5343bca08039b78d170002c4/60e1a407cfd884bbba461245_GrandSlang%20Roman.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/5343bca08039b78d170002c4/60e1a407ad63e87cd8d907ef_GrandSlang%20Roman.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Grandslang roman";
+  src: url("https://uploads-ssl.webflow.com/5343bca08039b78d170002c4/60e1a407cfd884bbba461245_GrandSlang%20Roman.woff2")
+      format("woff2"),
+    url("https://uploads-ssl.webflow.com/5343bca08039b78d170002c4/60e1a407ad63e87cd8d907ef_GrandSlang%20Roman.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 .section {
-    margin-top: 350px;
+  margin-top: 350px;
 }
 
 .section h1 {
-    font-family: Montserrat, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 element.style {
-    transform: translate3d(0px, -2vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
+  transform: translate3d(0px, -2vh, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
 }
 
 .header {
-    position: relative;
-    margin-top: 0px;
-    margin-bottom: 0vh;
-    font-family: 'Grandslang roman', sans-serif;
-    font-size: 20px;
-    line-height: 1.75em;
-    font-weight: 500;
-    text-align: left;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-top: 150px;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0vh;
+  font-family: "Grandslang roman", sans-serif;
+  font-size: 20px;
+  line-height: 1.75em;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 150px;
 }
 
 .header.header-large {
-    font-family: 'Grandslang roman', sans-serif;
-    font-size: 14vw;
-    line-height: 1em;
-    font-weight: 300;
-    letter-spacing: 0px;
-    text-transform: none;
+  font-family: "Grandslang roman", sans-serif;
+  font-size: 14vw;
+  line-height: 1em;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-transform: none;
 }
 
 .align-left {
-    text-align: left;
+  text-align: left;
 }
 
 .description {
-    position: relative;
-    max-width: 80%;
-    margin-right: 0px;
-    margin-left: 0px;
-    font-family: Montserrat, sans-serif;
-    font-size: 13px;
-    line-height: 1.9em;
-    font-weight: 400;
+  position: relative;
+  max-width: 80%;
+  margin-right: 0px;
+  margin-left: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  line-height: 1.9em;
+  font-weight: 400;
 }
 
 .description-static {
-    position: relative;
-    display: block;
-    max-width: 90%;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    font-family: Montserrat, sans-serif;
-    font-size: 14px;
-    line-height: 1.9em;
-    font-weight: 400;
-    text-decoration: none;
-    margin-bottom: 50px;
+  position: relative;
+  display: block;
+  max-width: 90%;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 1.9em;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 50px;
 }
 
 .description-static.description-long {
-    max-width: 75%;
-    font-family: Montserrat, sans-serif;
-    line-height: 1.9em;
-    font-weight: 400;
+  max-width: 75%;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.9em;
+  font-weight: 400;
 }
 
 .quote {
-    display: block;
-    padding-bottom: 2%;
-    font-family: 'Grandslang roman', sans-serif;
-    font-size: 26px;
-    line-height: 1.3em;
-    font-weight: 300;
+  display: block;
+  padding-bottom: 2%;
+  font-family: "Grandslang roman", sans-serif;
+  font-size: 26px;
+  line-height: 1.3em;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 991px) {
-    .quote {
-        font-size: 36px;
-    }
+  .quote {
+    font-size: 36px;
+  }
 }
 
 #iptul {
-    margin-top: 40px;
-    margin-left: 120px;
+  margin-top: 40px;
+  margin-left: 120px;
 }
 
 #label-photo {
-    margin-left: 120px;
+  margin-left: 120px;
 }
 
 @media screen and (max-width: 991px) {
-    .nav-left {
-        width: 10%;
-        padding-left: 6px;
-    }
+  .nav-left {
+    width: 10%;
+    padding-left: 6px;
+  }
 }
 
 .nav-left {
-    position: fixed;
-    z-index: 600;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 6%;
-    height: 100vh;
-    padding-top: 5%;
-    padding-bottom: 30px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+  position: fixed;
+  z-index: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6%;
+  height: 100vh;
+  padding-top: 5%;
+  padding-bottom: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .nav-left-item {
-    margin-bottom: 40px;
-    padding-right: 15px;
-    padding-left: 20px;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+  margin-bottom: 40px;
+  padding-right: 15px;
+  padding-left: 20px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .nav-left-link {
-    display: block;
-    border: 0px solid #000;
-    -webkit-transition: opacity 300ms ease;
-    transition: opacity 300ms ease;
-    font-family: Montserrat, sans-serif;
-    color: #d3d3d3;
-    font-size: 10px;
-    font-weight: 500;
-    text-align: center;
-    letter-spacing: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
+  display: block;
+  border: 0px solid #000;
+  -webkit-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+  font-family: Montserrat, sans-serif;
+  color: #d3d3d3;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 991px) {
-    .nav-left-link {
-        font-size: 10px;
-    }
+  .nav-left-link {
+    font-size: 10px;
+  }
 }
 
 .nav-line {
-    width: 1px;
-    height: 100px;
-    margin-top: 10px;
-    margin-bottom: 80px;
-    background-color: #d3d3d3;
+  width: 1px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  background-color: #d3d3d3;
 }
 
 .nav-left-item.nav-copyright {
-    position: absolute;
-    left: 0%;
-    top: auto;
-    right: 0%;
-    bottom: 3vh;
-    width: 110px;
-=======
-=======
->>>>>>> d901ce047ba065dcc75927e4d509cf5e1caa1683
-@charset "UTF-8";
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-::selection {
-    background: #eee7e1;
-    color: #1a1919;
-}
-
-::-webkit-scrollbar-track {
-    background-color: #000;
-}
-
-::-webkit-scrollbar {
-    width: 5px;
-    background-color: #333;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #d3d3d3;
-}
-
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
-body {
-    margin: 0;
-    background-color: #000;
-    font-family: Montserrat, sans-serif;
-    color: #d3d3d3;
-    font-size: 12px;
-    line-height: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #d3d3d3;
-    text-decoration: underline;
-}
-
-a:hover {
-    text-decoration: line-through;
-}
-
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: justify;
-}
-
-.nav-link {
-    position: relative;
-    z-index: 100;
-    display: block;
-    border: 0px solid #000;
-    -webkit-transition: color 300ms ease-in-out, font-size 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-    transition: color 300ms ease-in-out, font-size 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-    transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out;
-    transition: transform 300ms ease-in-out, color 300ms ease-in-out, font-size 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-    font-family: 'Grandslang roman', sans-serif;
-    color: #d3d3d3;
-    font-size: 12vw;
-    line-height: 0.95em;
-    font-weight: 300;
-    text-align: left;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.nav-link:hover {
-    -webkit-transform: translate(5px, 0%);
-    -ms-transform: translate(5px, 0%);
-    transform: translate(5px, 0%);
-    font-style: italic;
-    font-weight: 400;
-    text-decoration: none;
-    color: #d3d3d3;
-}
-
-@font-face {
-    font-family: 'Grandslang roman';
-    src: url('https://uploads-ssl.webflow.com/5343bca08039b78d170002c4/60e1a407cfd884bbba461245_GrandSlang%20Roman.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/5343bca08039b78d170002c4/60e1a407ad63e87cd8d907ef_GrandSlang%20Roman.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-.section {
-    margin-top: 350px;
-}
-
-.section h1 {
-    font-family: Montserrat, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-element.style {
-    transform: translate3d(0px, -2vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
-}
-
-.header {
-    position: relative;
-    margin-top: 0px;
-    margin-bottom: 0vh;
-    font-family: 'Grandslang roman', sans-serif;
-    font-size: 20px;
-    line-height: 1.75em;
-    font-weight: 500;
-    text-align: left;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-top: 150px;
-}
-
-.header.header-large {
-    font-family: 'Grandslang roman', sans-serif;
-    font-size: 14vw;
-    line-height: 1em;
-    font-weight: 300;
-    letter-spacing: 0px;
-    text-transform: none;
-}
-
-.align-left {
-    text-align: left;
-}
-
-.description {
-    position: relative;
-    max-width: 80%;
-    margin-right: 0px;
-    margin-left: 0px;
-    font-family: Montserrat, sans-serif;
-    font-size: 13px;
-    line-height: 1.9em;
-    font-weight: 400;
-}
-
-.description-static {
-    position: relative;
-    display: block;
-    max-width: 90%;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    font-family: Montserrat, sans-serif;
-    font-size: 14px;
-    line-height: 1.9em;
-    font-weight: 400;
-    text-decoration: none;
-    margin-bottom: 50px;
-}
-
-.description-static.description-long {
-    max-width: 75%;
-    font-family: Montserrat, sans-serif;
-    line-height: 1.9em;
-    font-weight: 400;
-}
-
-.quote {
-    display: block;
-    padding-bottom: 2%;
-    font-family: 'Grandslang roman', sans-serif;
-    font-size: 26px;
-    line-height: 1.3em;
-    font-weight: 300;
-}
-
-@media screen and (max-width: 991px) {
-    .quote {
-        font-size: 36px;
-    }
-}
-
-#iptul {
-    margin-top: 40px;
-    margin-left: 120px;
-}
-
-#label-photo {
-    margin-left: 120px;
-}
-
-@media screen and (max-width: 991px) {
-    .nav-left {
-        width: 10%;
-        padding-left: 6px;
-    }
-}
-
-.nav-left {
-    position: fixed;
-    z-index: 600;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 6%;
-    height: 100vh;
-    padding-top: 5%;
-    padding-bottom: 30px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.nav-left-item {
-    margin-bottom: 40px;
-    padding-right: 15px;
-    padding-left: 20px;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-
-.nav-left-link {
-    display: block;
-    border: 0px solid #000;
-    -webkit-transition: opacity 300ms ease;
-    transition: opacity 300ms ease;
-    font-family: Montserrat, sans-serif;
-    color: #d3d3d3;
-    font-size: 10px;
-    font-weight: 500;
-    text-align: center;
-    letter-spacing: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-@media screen and (max-width: 991px) {
-    .nav-left-link {
-        font-size: 10px;
-    }
-}
-
-.nav-line {
-    width: 1px;
-    height: 100px;
-    margin-top: 10px;
-    margin-bottom: 80px;
-    background-color: #d3d3d3;
-}
-
-.nav-left-item.nav-copyright {
-    position: absolute;
-    left: 0%;
-    top: auto;
-    right: 0%;
-    bottom: 3vh;
-    width: 110px;
-<<<<<<< HEAD
->>>>>>> c2c4847 (first)
-=======
->>>>>>> d901ce047ba065dcc75927e4d509cf5e1caa1683
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 3vh;
+  width: 110px;
 }
