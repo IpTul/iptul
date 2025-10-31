@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @charset "UTF-8";
 
 * {
@@ -290,6 +291,8 @@ element.style {
     bottom: 3vh;
     width: 110px;
 =======
+=======
+>>>>>>> d901ce047ba065dcc75927e4d509cf5e1caa1683
 @charset "UTF-8";
 
 * {
@@ -580,5 +583,8 @@ element.style {
     right: 0%;
     bottom: 3vh;
     width: 110px;
+<<<<<<< HEAD
 >>>>>>> c2c4847 (first)
+=======
+>>>>>>> d901ce047ba065dcc75927e4d509cf5e1caa1683
 }
